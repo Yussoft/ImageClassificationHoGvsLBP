@@ -19,6 +19,16 @@ from sklearn.decomposition import PCA
 workspace = "C:\\Users\\Yus\\Desktop\\ECI.Practica\\ImageClassificationHoGvsLBP"
 data_dir = workspace + "\\data"
 
+# README:
+# PARA CAMBIAR EL DESCRIPTOR UTILIZADO BUSCA: method = methods y selecciona 
+# el descriptor deseado de la lista methods.
+#
+# PARA CAMBIAR EL KERNEL DE SVM BUSCA: svm_model = SVC(kernel= y cambia el kernel
+# de "linear" a "rbf".
+# 
+# AL ELEGIR LBP DEBES ACTIVAR O DESACTIVAR LA VERSION UNIFORME Y PCA, BUSCA:
+# "use_pca = " y "uniform = " y activa o desactiva a tu gusto.
+
 # Boolean to turn on or off the debugging messages
 message = True
 
